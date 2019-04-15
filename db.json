@@ -1,62 +1,14 @@
-[
-    {
-        "monitoredObjectUid": "9000477424_2FCE98D8326E57B45D03157FDC878C13_1552476623278",
-        "monitoredObjectId": "2FCE98D8326E57B45D03157FDC878C13",
-        "devices": [
-            {
-                "deviceUid": "9000477424_9000477426_1552476623278",
-                "deviceId": "9000477426",
-                "validFrom": "2019-03-13T11:30:23.278+0000",
-                "validTo": "9999-12-31T14:38:28.000+0000",
-                "active": true
-            },
-            {
-                "deviceUid": "9000477424_9000477426_1552476994621",
-                "deviceId": "9000477426",
-                "validFrom": "2019-03-13T11:36:34.740+0000",
-                "validTo": "9999-12-31T14:38:28.000+0000",
-                "active": true
-            },
-            {
-                "deviceUid": "9000477424_9000477424_1552477037101",
-                "deviceId": "9000477424",
-                "validFrom": "2019-03-13T11:37:17.112+0000",
-                "validTo": "9999-12-31T14:38:28.000+0000",
-                "active": true
-            },
-            {
-                "deviceUid": "9000477424_9000477422_1552480241006",
-                "deviceId": "9000477422",
-                "validFrom": "2019-03-13T12:30:41.016+0000",
-                "validTo": "9999-12-31T14:38:28.000+0000",
-                "active": true
-            }
-        ],
-        "validFrom": "2019-03-13T11:30:23.278+0000",
-        "validTo": "9999-12-31T14:38:28.000+0000",
-        "active": true
-    },
-    {
-        "monitoredObjectUid": "9000477424_FC9B0072DAA2AA39870CA6351890EE94_1416692023000",
-        "monitoredObjectId": "FC9B0072DAA2AA39870CA6351890EE94",
-        "devices": [
-            {
-                "deviceUid": "9000477424_9000477426_1416692023000",
-                "deviceId": "9000477426",
-                "validFrom": "2010-11-22T22:33:43.000+0000",
-                "validTo": "2019-05-15T22:50:57.000+0000",
-                "active": true
-            },
-            {
-                "deviceUid": "9000477424_9000477424_1416692023000",
-                "deviceId": "9000477424",
-                "validFrom": "2014-11-22T21:33:43.000+0000",
-                "validTo": "2018-05-15T20:50:57.000+0000",
-                "active": true
-            }
-        ],
-        "validFrom": "2014-11-22T21:33:43.000+0000",
-        "validTo": "2018-05-15T20:50:57.000+0000",
-        "active": true
-    }
-]
+{
+  "posts": [
+    { "id": 1, "title": "Post 1" },
+    { "id": 2, "title": "Post 2" },
+    { "id": 3, "title": "Post 3" }
+  ],
+  "comments": [
+    { "id": 1, "body": "some comment", "postId": 1 },
+    { "id": 2, "body": "some comment", "postId": 1 }
+  ],
+  "profile": {
+    "name": "typicode"
+  }
+}
